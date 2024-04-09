@@ -1,0 +1,18 @@
+{
+  "name": "grpc-reverse-proxy",
+  "version": "1.0.0",
+  "description": "good work",
+  "main": "index.js",
+  "scripts": {
+    "test": "good"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.6",
+    "@grpc/proto-loader": "^0.7.12",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
+}

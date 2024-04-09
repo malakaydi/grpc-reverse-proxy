@@ -1,0 +1,11 @@
+syntax = "proto3";
+package myservice;
+service MyService {
+rpc getRecord (RecordRequest) returns (RecordResponse) {}
+}
+message RecordRequest {
+string id = 1;
+}
+message RecordResponse {
+string record = 1;
+}
